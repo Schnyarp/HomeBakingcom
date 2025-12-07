@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>homebaking.com — Premium Domain For Sale</title>
+  <meta name="description" content="homebaking.com — premium domain ideal for baking blogs, recipe platforms, DTC baking brands, online baking schools and community recipe hubs. Submit an offer to purchase." />
+  <meta property="og:title" content="homebaking.com — Premium Domain For Sale" />
+  <meta property="og:description" content="homebaking.com — premium domain for baking marketplaces, recipe apps, cooking schools and artisanal baking brands. Contact domain@homebaking.com" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#F6E7D8" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root{
+      --max-width:1080px;
+      --panel:#ffffff;
+      --muted:#7a6a5f;
+      --accent-warm:#f4b07a;   /* baked-gold */
+      --accent-soft:#ffdcc0;   /* floury highlight */
+      --text:#2a2a28;
+      --bg-top:#fffaf6;
+      --bg-bottom:#fff3ea;
+      --radius:14px;
+      --shadow: 0 30px 90px rgba(42,42,40,0.06);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:36px 20px;
+      color:var(--text);
+      background:
+        radial-gradient(900px 360px at 12% 12%, rgba(244,176,122,0.04), transparent 12%),
+        linear-gradient(180deg,var(--bg-top) 0%, var(--bg-bottom) 100%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      overflow-x:hidden;
+    }
+
+    /* Chosen look: cozy home-bakery — warm paper tone, flour dust, illustrated goods and rolling-pin motifs */
+    .bg {
+      position:fixed;
+      inset:0;
+      z-index:0;
+      pointer-events:none;
+      overflow:visible;
+    }
+
+    /* soft paper texture / flour speckles */
+    .paper {
+      position:fixed;
+      left:50%;
+      top:8%;
+      width:1100px;
+      height:420px;
+      transform:translateX(-50%);
+      background-image:
+        radial-gradient(circle at 20% 20%, rgba(255,255,255,0.95), rgba(255,255,255,0.6) 20%),
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='420' height='320' viewBox='0 0 420 320'><g fill='%23000000' fill-opacity='0.03'><circle cx='40' cy='36' r='1.2'/><circle cx='72' cy='84' r='1.2'/><circle cx='110' cy='40' r='1.2'/><circle cx='160' cy='120' r='1.2'/><circle cx='220' cy='20' r='1.2'/><circle cx='320' cy='90' r='1.2'/></g></svg>");
+      background-repeat:repeat;
+      background-size:260px 220px;
+      opacity:0.95;
+      mix-blend-mode:screen;
+      filter: blur(0.6px);
+    }
+
+    /* subtle flour floating particles */
+    .flour {
+      position:fixed;
+      inset:0;
+      z-index:0;
+      pointer-events:none;
+      overflow:visible;
+    }
+    .flake {
+      position:absolute;
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background: rgba(255,255,255,0.92);
+      box-shadow: 0 6px 18px rgba(42,42,40,0.06);
+      opacity:0.8;
+      transform: translateZ(0);
+    }
+
+    /* rolling-pin + wheat watermark on sides */
+    .ornament-left, .ornament-right {
+      position:fixed;
+      top:18%;
+      width:160px;
+      height:160px;
+      opacity:0.08;
+      z-index:0;
+      pointer-events:none;
+      background-size:contain;
+      background-repeat:no-repeat;
+      mix-blend-mode: multiply;
+    }
+    .ornament-left { left:6%; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'><g fill='%23000000' fill-opacity='0.12'><rect x='8' y='68' width='144' height='24' rx='12'/><circle cx='22' cy='80' r='12'/><circle cx='138' cy='80' r='12'/><path d='M40 36c8 6 24 6 36 0 12-6 28-6 36 0' stroke='%23000000' stroke-opacity='0.08' stroke-width='3' fill='none'/></g></svg>"); }
+    .ornament-right { right:6%; top:22%; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'><g fill='%23000000' fill-opacity='0.12'><path d='M30 20c10 8 18 22 18 34s-8 26-18 34' stroke='%23000000' stroke-opacity='0.06' stroke-width='3' fill='none'/><path d='M130 120c-10-8-18-22-18-34s8-26 18-34' stroke='%23000000' stroke-opacity='0.06' stroke-width='3' fill='none'/></g></svg>"); }
+
+    .container{
+      width:100%;
+      max-width:var(--max-width);
+      padding:34px;
+      border-radius:18px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.995), rgba(255,252,248,0.99));
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(42,42,40,0.03);
+      position:relative;
+      z-index:2;
+    }
+
+    header{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:20px;
+    }
+
+    .brand{ display:flex; gap:14px; align-items:center; }
+    .logo{
+      width:86px;
+      height:86px;
+      border-radius:16px;
+      background: linear-gradient(135deg,var(--accent-warm),var(--accent-soft));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#2b1f18;
+      font-weight:900;
+      font-size:22px;
+      box-shadow: 0 12px 30px rgba(42,42,40,0.06);
+      flex-shrink:0;
+      border:1px solid rgba(255,255,255,0.06);
+      font-family: "Georgia", serif;
+    }
+
+    h1{ margin:0; font-size:28px; color:var(--text); font-family: "Georgia", serif; }
+    p.lead{ margin:6px 0 0; color:var(--muted); font-size:14px; max-width:760px; }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:28px;
+      align-items:start;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, rgba(244,176,122,0.03), rgba(255,220,200,0.02));
+      padding:16px 18px;
+      border-radius:12px;
+      color:var(--text);
+      margin-bottom:16px;
+      border:1px solid rgba(42,42,40,0.03);
+    }
+    .hero p{ margin:0; font-size:15px; color:var(--text); }
+
+    .panel{
+      background: var(--panel);
+      padding:22px;
+      border-radius:14px;
+      box-shadow: 0 10px 30px rgba(42,42,40,0.04);
+      border: 1px solid rgba(42,42,40,0.02);
+      color:var(--text);
+      max-width:820px;
+    }
+
+    h2{ margin-top:0; font-size:20px; color:var(--text); }
+    .features ul{ margin:0; padding-left:18px; color:var(--muted); }
+    .features li{ margin-bottom:10px; }
+
+    .cta-row{ display:flex; gap:12px; margin-top:18px; flex-wrap:wrap; align-items:center; }
+    .btn{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding:10px 16px;
+      border-radius:999px;
+      font-weight:700;
+      cursor:pointer;
+      text-decoration:none;
+      border:0;
+    }
+    .btn-primary{
+      background: linear-gradient(90deg,var(--accent-warm),var(--accent-soft));
+      color:#2b1f18;
+      box-shadow: 0 10px 30px rgba(244,176,122,0.12);
+    }
+    .btn-ghost{
+      background:transparent;
+      border:1px solid rgba(42,42,40,0.06);
+      color:var(--muted);
+    }
+
+    .price { margin-top:12px; font-weight:700; color:var(--text); font-size:16px; }
+    .muted-small { color:var(--muted); font-size:13px; margin-top:6px; }
+
+    .contact-card{
+      position:sticky;
+      top:32px;
+      align-self:start;
+      background: linear-gradient(180deg, rgba(255,255,255,0.995), rgba(255,255,255,0.98));
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(42,42,40,0.03);
+      box-shadow: 0 8px 26px rgba(42,42,40,0.035);
+      max-width:360px;
+    }
+
+    .contact-card h3{ margin:0 0 8px 0; font-size:16px; color:var(--text); }
+    .contact-email, .contact-email a{
+      white-space:nowrap;
+      display:inline-block;
+      font-weight:800;
+      color:var(--accent-warm);
+      word-break: normal;
+      font-size:0.98rem;
+      text-decoration:none;
+    }
+
+    form label{ display:block; font-size:13px; color:var(--muted); margin-bottom:6px; }
+    form input, form textarea {
+      width:100%;
+      padding:10px 12px;
+      border-radius:10px;
+      border:1px solid rgba(42,42,40,0.06);
+      background:#fff;
+      color:var(--text);
+      font-size:14px;
+      margin-bottom:12px;
+    }
+    form textarea{ min-height:110px; resize:vertical; }
+
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center; }
+
+    @media (max-width:980px){
+      .grid{ grid-template-columns: 1fr; gap:18px; }
+      .contact-card{ position:relative; top:auto; width:100%; max-width:none; }
+      .container{ padding:24px; }
+      .logo{ width:72px; height:72px; border-radius:12px; }
+      h1{ font-size:22px; }
+      .paper, .ornament-left, .ornament-right, .flour { display:none; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "url":"https://homebaking.com",
+        "name":"homebaking.com",
+        "description":"homebaking.com — premium domain for baking blogs, recipe platforms, DTC baking brands, online baking schools and community recipe hubs."
+      },
+      {
+        "@type":"ContactPoint",
+        "contactType":"sales",
+        "email":"domain@homebaking.com"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="paper" aria-hidden="true"></div>
+    <div class="flour" id="flourLayer" aria-hidden="true"></div>
+    <div class="ornament-left" aria-hidden="true"></div>
+    <div class="ornament-right" aria-hidden="true"></div>
+  </div>
+
+  <main class="container" role="main" aria-labelledby="main-heading">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">HB</div>
+        <div>
+          <h1 id="main-heading">homebaking.com</h1>
+          <p class="lead">Premium domain for baking blogs, recipe platforms, DTC bakeries, online baking schools and community recipe hubs.</p>
+        </div>
+      </div>
+
+      <div style="text-align:right">
+        <div style="color:var(--muted);font-size:13px">For inquiries</div>
+        <div class="contact-email"><a href="mailto:domain@homebaking.com">domain@homebaking.com</a></div>
+      </div>
+    </header>
+
+    <div class="hero" role="note" aria-live="polite">
+      <p>HomeBaking.com feels warm and immediate — ideal for brands and products that celebrate baking at home: recipe networks, ingredient subscriptions, local artisanal bakeries and instructional platforms.</p>
+    </div>
+
+    <section class="grid" aria-label="Main content">
+      <div>
+        <article class="panel" aria-labelledby="why-title">
+          <h2 id="why-title">Why homebaking.com?</h2>
+          <p class="lead">A memorable, evocative .com that signals home baking, recipe sharing and artisanal food. Great for commerce, community and education in the baking space.</p>
+
+          <div class="features" style="margin-top:12px">
+            <ul>
+              <li>Perfect for recipe hubs, baking schools, subscription boxes and DTC bakery brands</li>
+              <li>Works for editorial cooking content, branded recipe platforms and local bakery marketplaces</li>
+              <li>Highly brandable — strong potential across packaging, social media and app experiences</li>
+            </ul>
+          </div>
+
+          <div class="cta-row" role="group" aria-label="Actions">
+            <a class="btn btn-primary" href="#" id="inquireBtn">Make an Offer</a>
+            <a class="btn btn-ghost" href="mailto:domain@homebaking.com?subject=Domain%20Offer%20-%20homebaking.com">Email Now</a>
+          </div>
+
+          <div class="price">Domain: homebaking.com</div>
+          <div class="muted-small">Serious offers only. Transfer via escrow recommended for secure and trusted transactions.</div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="about-title">
+          <h3 id="about-title" style="margin-top:0">About this domain</h3>
+          <p class="lead">HomeBaking.com is a natural fit for founders building food-forward products and communities: from recipe discovery and tutorial platforms to subscription baking kits and artisan bakery storefronts.</p>
+
+          <ul style="color:var(--muted);margin-top:12px">
+            <li>Great for DTC baking brands, recipe platforms, and subscription boxes</li>
+            <li>Useful for online courses, community recipe hubs, and local bakery marketplaces</li>
+            <li>Transfer-ready — escrow recommended to ensure a secure and verifiable transfer</li>
+          </ul>
+        </article>
+      </div>
+
+      <aside class="contact-card" aria-label="Contact & offer">
+        <div>
+          <h3 style="margin-top:0">Contact & Offer</h3>
+          <p style="margin-top:6px;color:var(--muted)">Submit an offer — this form opens your email client with the details prefilled. Or email <a href="mailto:domain@homebaking.com" class="contact-email">domain@homebaking.com</a>.</p>
+
+          <form id="inquiryForm" onsubmit="handleSubmit(event)" aria-label="Domain offer form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="offer">Your offer (USD)</label>
+            <input id="offer" name="offer" type="text" placeholder="Enter your offer (USD)" required />
+
+            <label for="company">Company (optional)</label>
+            <input id="company" name="company" type="text" placeholder="Your company or organization" />
+
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text" placeholder="Your country" required />
+
+            <label for="phone">Phone number (optional)</label>
+            <input id="phone" name="phone" type="tel" />
+
+            <label for="message">Message (questions, timeline, escrow preference)</label>
+            <textarea id="message" name="message" placeholder="Hi — I'm submitting an offer for homebaking.com. Please share transfer instructions and next steps."></textarea>
+
+            <button class="btn btn-primary" type="submit" style="width:100%; margin-top:6px">Send Offer</button>
+          </form>
+
+          <footer style="margin-top:10px; text-align:left; color:var(--muted); font-size:13px">
+            Prefer a direct email? <a href="mailto:domain@homebaking.com" style="color:var(--accent-warm)" class="contact-email">domain@homebaking.com</a>
+          </footer>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      &copy; 2025 homebaking.com. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // place a few flour speckles (flakes) and animate them subtly
+    (function placeFlour(){
+      const layer = document.getElementById('flourLayer');
+      if(!layer) return;
+      const count = 32;
+      for(let i=0;i<count;i++){
+        const f = document.createElement('div');
+        f.className = 'flake';
+        const left = Math.random()*100;
+        const top = Math.random()*80;
+        const size = 4 + Math.random()*12;
+        f.style.left = left + 'vw';
+        f.style.top = top + 'vh';
+        f.style.width = size + 'px';
+        f.style.height = size + 'px';
+        f.style.opacity = 0.05 + Math.random()*0.18;
+        (function animate(el){
+          const dur = 6000 + Math.random()*10000;
+          let dir = 1;
+          function step(){
+            const tx = (Math.random()-0.5)*8;
+            const ty = dir * (6 + Math.random()*18);
+            const rt = (Math.random()-0.5)*30;
+            el.style.transition = `transform ${dur}ms ease-in-out, opacity ${dur}ms linear`;
+            el.style.transform = `translate(${tx}px, ${ty}px) rotate(${rt}deg)`;
+            el.style.opacity = 0.04 + Math.random()*0.22;
+            dir *= -1;
+            setTimeout(step, dur);
+          }
+          setTimeout(step, Math.random()*dur);
+        })(f);
+        layer.appendChild(f);
+      }
+    })();
+
+    // Compose a mailto: URL from the form and open the user's email client.
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const offer = document.getElementById('offer').value.trim();
+      const company = document.getElementById('company').value.trim();
+      const country = document.getElementById('country').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const subject = encodeURIComponent('Domain Offer - homebaking.com');
+      const bodyText =
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Company: ${company || '(not provided)'}\n` +
+        `Offer (USD): ${offer}\n` +
+        `Country: ${country}\n` +
+        `Phone: ${phone || '(not provided)'}\n\n` +
+        `Message:\n${message}\n\n---\nSent from homebaking.com offer form`;
+
+      const body = encodeURIComponent(bodyText);
+      const mailto = `mailto:domain@homebaking.com?subject=${subject}&body=${body}`;
+      window.location.href = mailto;
+    }
+
+    document.getElementById('inquireBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const form = document.getElementById('inquiryForm');
+      if(window.innerWidth < 900){
+        form.scrollIntoView({behavior:'smooth', block:'center'});
+        form.querySelector('input').focus();
+      } else {
+        const subject = encodeURIComponent('Domain Offer - homebaking.com');
+        const body = encodeURIComponent('Hi — I would like to make an offer for homebaking.com. Please reply with transfer instructions and next steps.');
+        window.location.href = `mailto:domain@homebaking.com?subject=${subject}&body=${body}`;
+      }
+    });
+  </script>
+</body>
+</html>
